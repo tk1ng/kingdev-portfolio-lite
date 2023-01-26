@@ -14,9 +14,11 @@
     --color-bg: rgb(10, 10, 10);
     --color-bg-variant: #171822;
     --color-primary: #B00AFC;
-    --color-highlight: #e0807c;
+    --color-highlight: #e055e4;
+    --color-highlight-variant: #EA9863;
     --color-primary-variant:rgba(234, 152, 99, 0.4);
     --color-white: rgb(211, 210, 210);
+    --bright: #fff;
     --color-light: rgba(255,255,255,0.6);
     --color-gradient: linear-gradient(
         to bottom right, 
@@ -28,7 +30,15 @@
     --container-width-md: 86%;
     --container-width-sm: 90%;
 
-    --transition: all 0.5s ease;
+    --main-font: 'Poppins', sans-serif;
+    --code-font: "Oxygen mono", monospace;
+    --text-emphasis: linear-gradient(
+        to bottom right, 
+        #EA9863,
+        #B00AFC
+      );
+
+    --transition: all 0.3s ease;
 }
 
 html {
