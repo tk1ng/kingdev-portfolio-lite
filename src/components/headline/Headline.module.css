@@ -1,0 +1,28 @@
+.gradient {
+    background: linear-gradient(to bottom right,
+            #EA9863,
+            #B00AFC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:
+        transparent;
+}
+
+.headline {
+    padding: 3rem 0;
+    margin: 15rem auto;
+    width: 50%;
+}
+
+.headline h1 {
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.title {
+    display: block;
+    font-weight: lighter;
+    font-size: medium;
+    text-align: start;
+    margin-left: 3.2rem;
+}
