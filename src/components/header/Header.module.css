@@ -1,0 +1,11 @@
+.header {
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.headerLogo {
+    width: 85px;
+}

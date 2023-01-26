@@ -1,0 +1,19 @@
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1.1rem;
+    align-items: center;
+}
+
+.navContainer a:hover {
+    background: var(--color-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: 
+    transparent;
+    transition: var(--transition);
+}
+
+  .navLinks {
+    margin-right: 2rem;
+  }
