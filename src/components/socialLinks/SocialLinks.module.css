@@ -1,0 +1,17 @@
+.socialLinks {
+    display: flex;
+    height: 3rem;
+    width: 20%;
+    justify-content: space-evenly;
+    border: 1px solid #2F303A;
+    border-radius: 50px;
+    background: #161616;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.socialLinks svg {
+    width: 100%;
+    margin-top: 0.6rem;
+}

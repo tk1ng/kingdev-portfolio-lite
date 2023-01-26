@@ -1,4 +1,5 @@
 import styles from './NavBar.module.css';
+import resume from '../../assets/Taryn-King_Resume.pdf';
 
 const NavBar = () => {
     return ( 
@@ -6,7 +7,7 @@ const NavBar = () => {
              <li><a href='#about' className={styles.navLinks}>About</a></li>
              <li><a href='#work' className={styles.navLinks}>Work</a></li>
              <li><a href='#contact' className={styles.navLinks}>Contact</a></li>
-             <li><button className='btn'>Resume</button></li>
+             <li><a href={resume} target='_blank' rel="noreferrer" className={styles.resumeLink}>Resume</a></li>
         </nav>
      );
 }

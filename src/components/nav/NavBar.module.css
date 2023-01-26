@@ -1,11 +1,10 @@
 .navContainer {
     display: flex;
     flex-direction: row;
-    gap: 1.1rem;
     align-items: center;
 }
 
-.navContainer a:hover {
+.navLinks:hover {
     background: var(--color-gradient);
     background-clip: text;
     -webkit-background-clip: text;
@@ -16,4 +15,21 @@
 
   .navLinks {
     margin-right: 2rem;
+  }
+
+  .resumeLink {
+        width: max-content;
+        display: inline-block;
+        color: var(--color-highlight);
+        background-color: transparent;
+        padding: 0.4rem 0.5rem;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        border: 1px solid var(--color-highlight);
+        transition: var(--transition);
+  }
+.resumeLink:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-color: transparent;
   }

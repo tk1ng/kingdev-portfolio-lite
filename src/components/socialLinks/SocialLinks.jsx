@@ -1,10 +1,11 @@
 import {BsGithub, BsTwitter} from 'react-icons/bs'
 import {GrLinkedinOption} from 'react-icons/gr';
 import {FaCodepen} from 'react-icons/fa';
+import styles from './SocialLinks.module.css';
 
 const SocialLinks = () => {
   return (
-    <div className="social-links social-links-grid-item">
+    <div className={styles.socialLinks}>
       <a href="https://github.com/tk1ng" rel="noreferrer" target="_blank"><BsGithub /></a>
       <a href="https://codepen.io/gemking1" rel="noreferrer" target="_blank"><FaCodepen /></a>
       <a href="https://linkedin.com/in/taryn-king" rel="noreferrer" target="_blank"><GrLinkedinOption /></a>
