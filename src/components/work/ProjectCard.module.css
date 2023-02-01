@@ -8,7 +8,7 @@
     background: rgb(13,14,14);
     background: linear-gradient(11deg, rgba(13,14,14,1) 25%, rgba(45,45,51,0.9555480072463768) 76%);
     border-radius: var(--radius);
-    box-shadow: rgba(66, 68, 86, 0.342) 0px 2px 8px 4px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding: 1.5rem;
 }
 
@@ -34,10 +34,11 @@
 }
 
 .projectImg {
+    background-color: #602464;
 	grid-column: 1 / 8;
 	grid-row: 1 / -1;
+    box-shadow: rgb(71, 44, 77) 0px 20px 30px -10px;
     z-index: -1;
-    box-shadow: rgba(66, 68, 86, 0.342) 0px 2px 8px 5px;
 }
 
 .projectImg img {
@@ -45,6 +46,7 @@
 	width: 100%;
 	height: 375px;
 	object-fit: cover;
+    opacity: 0.2;
 }
 
 .projectTitle {

@@ -32,4 +32,23 @@
     padding: 5rem 10rem;
     max-width: 60%;
     margin: 0 auto;
+    transition: var(--transition);
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.thanks button {
+    --color-highlight: #EA9863;
+    margin-top: 2rem;
+    width: 35%;
+}
+
+.thanks p {
+    color: var(--color-light);
+    opacity: 0.8;
 }
