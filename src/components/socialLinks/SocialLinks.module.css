@@ -6,9 +6,6 @@
     margin-left: 4.2rem;
     justify-content: space-evenly;
     gap: 1.2rem;
-    /* border: 1px solid #2F303A;
-    border-radius: 50px;
-    background: #161616; */
     align-items: center;
     text-align: center;
     position: sticky;
@@ -22,4 +19,16 @@
 
 .socialLinks svg:hover {
     transform: scale(1.5);
+}
+
+@media (max-width: 913px) {
+    .socialLinks {
+        flex-direction: row;
+        justify-content: center;
+        gap: 4.2rem;
+        padding-bottom: 2.5rem;
+        position: static;
+        margin-left: 0;
+        width: unset;
+    }
 }
