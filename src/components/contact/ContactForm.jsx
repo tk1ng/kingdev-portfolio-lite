@@ -22,7 +22,7 @@ const ContactForm = () => {
     }
 
     return ( 
-        <div className={styles.formContainer}>
+        <div id='contact' className={styles.formContainer}>
             { !showSent ? <h3>Connect with me!</h3> : <h3>I'm Excited to read your message!</h3> }
             { !showSent &&
                 <form ref={form} onSubmit={sendEmail} className={styles.contact}>
