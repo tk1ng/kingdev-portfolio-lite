@@ -91,7 +91,7 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-highlight);
+    color: var(--color-highlight-variant);
     background-color: transparent;
     padding: 0.70rem 1rem;
     border-radius: 0.4rem;
@@ -101,8 +101,8 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: var(--color-primary);
-    color: var(--color-white);
+    background-color: var(--color-highlight-variant);
+    color: var(--bright);
     border-color: transparent;
 }
 

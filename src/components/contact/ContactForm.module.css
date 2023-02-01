@@ -1,0 +1,35 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.contact button {
+    --color-highlight: #EA9863;
+    margin-top: 4rem;
+    width: 35%;
+}
+
+.contact input, 
+.contact textarea {
+    min-height: 50px;
+    width: 350px;
+    padding: 0.6rem;
+    border-radius: 5px;
+}
+
+.contact input:focus, 
+.contact textarea:focus {
+    border: 2px solid var(--color-highlight-variant)
+}
+
+.contact label {
+    margin-top: 1.5rem;
+}
+
+.formContainer {
+    padding: 5rem 10rem;
+    max-width: 60%;
+    margin: 0 auto;
+}

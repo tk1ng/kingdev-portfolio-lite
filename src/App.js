@@ -1,4 +1,5 @@
 import About from './components/about/About';
+import ContactForm from './components/contact/ContactForm';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import HeadLine from './components/headline/Headline';
@@ -14,6 +15,9 @@ function App() {
       </section>
       <section>
         <About />
+      </section>
+      <section>
+        <ContactForm />
       </section>
       <SocialLinks />
       <Footer />
