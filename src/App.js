@@ -10,7 +10,7 @@ import styles from './App.module.css';
 function App() {
   return (
     <div className={styles.App}>
-      <section className={styles.section}>
+      <section className={styles.landing}>
         <Header />
         <HeadLine />
       </section>

@@ -1,9 +1,13 @@
 .App {
   text-align: center;
-  position: relative;
+  /* position: relative; */
+}
+
+.landing {
+  min-height: 100vh;
+  padding: 0;
 }
 
 section {
   padding: 0 2rem;
-  min-height: 100vh;
 }
