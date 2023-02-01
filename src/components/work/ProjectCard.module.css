@@ -6,7 +6,7 @@
 
 .description {
     background: rgb(13,14,14);
-    background: linear-gradient(11deg, rgba(13,14,14,1) 25%, rgba(45,45,51,0.9555480072463768) 76%);
+    /* background: linear-gradient(11deg, rgba(13,14,14,1) 25%, rgba(45,45,51,0.9555480072463768) 76%); */
     border-radius: var(--radius);
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding: 1.5rem;
@@ -64,4 +64,41 @@
 
 .techStack li:hover {
     color: var(--color-highlight-variant);
+}
+
+@media (max-width: 768px) {
+
+    .description {
+        background: none;
+        box-shadow: none;
+        opacity: 0.7;
+        padding: 1.5rem 0;
+    }
+    .projectDetails {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        padding: 2.5rem;
+        text-align: left;
+        min-width: 450px;
+    }
+
+    .projectImg {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        background-color: #1f0e20;
+        box-shadow: rgb(30, 24, 32) 0px 10px 10px 0px;
+    }
+
+    .projectImg img {
+        height: 450px;
+        opacity: 0.03;
+    }
+
+    .projectTitle {
+        color: #e08580;
+    }
+
+    .flex {
+        justify-content: flex-start;
+    }
 }
