@@ -1,4 +1,3 @@
-import { HashLink as Link } from 'react-router-hash-link';
 import styles from './NavBar.module.css';
 import resume from '../../assets/Taryn-King_Resume.pdf';
 
