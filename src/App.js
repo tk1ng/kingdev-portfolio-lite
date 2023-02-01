@@ -3,6 +3,7 @@ import ContactForm from './components/contact/ContactForm';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import HeadLine from './components/headline/Headline';
+import Projects from './components/work/Projects';
 import SocialLinks from './components/socialLinks/SocialLinks';
 import styles from './App.module.css';
 
@@ -15,6 +16,9 @@ function App() {
       </section>
       <section>
         <About />
+      </section>
+      <section>
+        <Projects />
       </section>
       <section>
         <ContactForm />
