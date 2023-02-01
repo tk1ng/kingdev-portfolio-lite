@@ -121,3 +121,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.emphasis {
+    background: var(--text-emphasis);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:
+        transparent;
+}

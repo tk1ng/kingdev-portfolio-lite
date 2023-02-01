@@ -3,7 +3,7 @@ import styles from './Projects.module.css';
 
 const Work = () => {
     return ( 
-        <ul className='projectsContainer'>
+        <ul className={styles.projectsContainer}>
             <ProjectCard />
         </ul>
      );

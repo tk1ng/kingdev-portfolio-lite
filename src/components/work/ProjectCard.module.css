@@ -1,3 +1,19 @@
+:root {
+    --justify: end;
+    --gap: 1.5rem;
+}
+
+.description {
+    background: #2D2D33;
+    padding: 1.5rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: end;
+    gap: var(--gap);
+}
+
 .projectCard {
 	align-items:center;
 	display: grid;
@@ -5,28 +21,43 @@
 	grid-template-rows: repeat(5, 1fr);
 }
 
-.projectTechstack {
-	list-style: none;
-}
-
 .projectDetails {
 	grid-column: 4 / -1;
 	grid-row: 2 /span 3;
 	text-align: end;
-	background: #2D2D33;
 	border-radius: 3px;
 	color: whitesmoke;
-	padding: 1.5rem;
-	z-index: 1;
 }
 
 .projectImg {
-	grid-column: 1 / 7;
+	grid-column: 1 / 8;
 	grid-row: 1 / -1;
+    z-index: -1;
 }
 
 .projectImg img {
 	width: 100%;
 	height: 375px;
 	object-fit: cover;
+}
+
+.projectLinks {
+    
+}
+
+.projectTag {
+    
+}
+
+.projectTitle {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.techStack {
+    color: var(--color-light);
+    font-family: var(--code-font);
+    font-size: 0.9rem;
+    margin: 1rem 0;
 }
