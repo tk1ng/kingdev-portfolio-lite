@@ -1,8 +1,10 @@
 # Portfolio
 
-## Available Scripts
+Dark themed portfolio site with a minimalist design. The purpose of this project is to provide a space where more can be learned about me and what I'm working on!
 
-In the project directory, you can run:
+## To run locally:
+
+Clone this repository in a directory on your machine and run `npm install` to download all necessary dependencies.
 
 ### `npm start`
 

@@ -8,15 +8,16 @@ const ProjectCard = () => {
         <li className={styles.projectCard}>
             <div className={`${styles.projectDetails}`}>
                 <p className={`${styles.projectTag} emphasis`}>Featured Project</p>
-                <h3 className={styles.projectTitle}>Project Title</h3>
-                <div className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                <h3 className={styles.projectTitle}>Portfolio Site</h3>
+                <div className={styles.description}>Dark themed portfolio site with a minimalist design. The purpose of this project is to provide a space where more can be learned about me and what I'm working on!</div>
                 <ul className={`${styles.techStack} ${styles.flex}`}>
                     <li>React</li>
                     <li>Express</li>
-                    <li>SQL</li>
+                    <li>EmailJS</li>
+                    <li>CSS Modules</li>
                 </ul>
                 <ul className={`${styles.projectLinks} ${styles.flex}`}>
-                    <a href='/' rel='noopener noreferrer' aria-label='External Link' target='_blank' ><FaGithub size={25}/></a>
+                    <a href='https://github.com/TK1ng/kingdev-portfolio-lite' rel='noopener noreferrer' aria-label='External Link' target='_blank' ><FaGithub size={25}/></a>
                     <a href='/' rel='noopener noreferrer' aria-label='External Link' target='_blank'><FiExternalLink size={25}/></a>
                 </ul>
             </div>
