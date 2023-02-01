@@ -8,13 +8,13 @@
 .contact button {
     --color-highlight: #EA9863;
     margin-top: 4rem;
-    width: 35%;
+    min-width: 35%;
 }
 
 .contact input, 
 .contact textarea {
     min-height: 50px;
-    width: 350px;
+    width: 80%;
     padding: 0.6rem;
     border-radius: 5px;
 }
@@ -29,9 +29,9 @@
 }
 
 .formContainer {
-    padding: 5rem 10rem;
-    max-width: 60%;
-    margin: 0 auto;
+    padding: 5rem 0;
+    max-width: 80%;
+    margin: 3rem auto;
     transition: var(--transition);
 }
 
@@ -51,4 +51,16 @@
 .thanks p {
     color: var(--color-light);
     opacity: 0.8;
+}
+
+@media (max-width: 913px) {
+    .contact input, 
+    .contact textarea {
+        width: 100%;
+    }
+
+    .formContainer {
+        max-width: unset;
+        min-width: 450px;
+    }
 }
