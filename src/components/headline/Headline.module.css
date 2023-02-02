@@ -27,9 +27,17 @@
     margin-left: 3.2rem;
 }
 
+@media (max-width: 768px) {
+    .headline {
+        margin: 25rem auto;
+    }
+    
+}
+
 @media (max-width: 400px) {
     .headline {
         width: 370px;
+        margin: 23rem auto;
     }
 
     .headline h1 {
