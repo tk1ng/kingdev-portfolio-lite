@@ -1,5 +1,5 @@
 .content {
-    width: 475px;
+    max-width: 475px;
     margin: 0 auto;
     text-align: left;
     padding: 10rem 0;
@@ -27,4 +27,15 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color:
         transparent;
+}
+
+@media (max-width: 520px) {
+    .content {
+        text-align: justify;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+    
 }

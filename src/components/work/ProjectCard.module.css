@@ -74,12 +74,13 @@
         opacity: 0.7;
         padding: 1.5rem 0;
     }
+
     .projectDetails {
         grid-column: 1 / -1;
         grid-row: 1 / -1;
         padding: 2.5rem;
         text-align: left;
-        min-width: 450px;
+        min-width: 350px;
     }
 
     .projectImg {

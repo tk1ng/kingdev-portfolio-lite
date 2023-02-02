@@ -26,3 +26,18 @@
     text-align: start;
     margin-left: 3.2rem;
 }
+
+@media (max-width: 520px) {
+    .headline {
+        width: 370px;
+    }
+
+    .headline h1 {
+        font-size: 4rem;
+    }
+
+    .title {
+        margin-left: 2.2rem;
+    }
+    
+}
