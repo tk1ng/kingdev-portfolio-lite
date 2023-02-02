@@ -33,3 +33,36 @@
     color: #fff;
     border-color: transparent;
   }
+
+  /* MOBILE NAV STYLES */
+
+  .mobileMenuBtn {
+    background: transparent;
+    color: var(--color-highlight-variant);
+  }
+
+  .mobileNavContainer {
+    background: linear-gradient(11deg, rgb(11, 4, 15) 25%, rgba(16, 16, 18, 0.906) 76%);
+    padding-top: 1.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: var(--transition);
+    bottom: 0;
+    height: 100vh;
+    width: 70%
+  }
+
+  .mobileNav {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    font-size: 1.5rem;
+    padding-top: 7rem;
+  }
+
+  .closeBtn {
+    background: transparent;
+    color: var(--color-highlight-variant);
+    margin-left: 9.5rem;
+  }
