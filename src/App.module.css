@@ -12,3 +12,9 @@ section {
   padding: 0 2rem;
   border: 1px solid transparent;
 }
+
+@media (max-width: 526px) {
+  section {
+    padding: 1rem;
+  }
+}
