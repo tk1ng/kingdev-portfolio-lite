@@ -27,7 +27,7 @@
     margin-left: 3.2rem;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 400px) {
     .headline {
         width: 370px;
     }
