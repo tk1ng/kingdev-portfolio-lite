@@ -30,7 +30,7 @@
 
 .formContainer {
     padding: 5rem 0;
-    max-width: 80%;
+    max-width: 45%;
     margin: 3rem auto;
     transition: var(--transition);
 }
