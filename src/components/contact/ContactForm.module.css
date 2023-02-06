@@ -7,16 +7,18 @@
 
 .contact button {
     --color-highlight: #EA9863;
+    font-size: 1.2rem;
     margin-top: 4rem;
     min-width: 35%;
 }
 
 .contact input, 
 .contact textarea {
-    min-height: 50px;
-    width: 80%;
-    padding: 0.6rem;
     border-radius: 5px;
+    font-size: 1.2rem;
+    min-height: 50px;
+    padding: 0.6rem;
+    width: 80%;
 }
 
 .contact input:focus, 
@@ -33,6 +35,14 @@
     max-width: 45%;
     margin: 3rem auto;
     transition: var(--transition);
+}
+
+.formContainer h2 {
+    margin-bottom: 0.3rem;
+}
+
+.formTopper {
+    margin-bottom: 2rem;
 }
 
 .thanks {
