@@ -3,6 +3,10 @@
     margin-left: 3px;
     animation: beat-it .7s linear infinite alternate;
   }
+
+  .heartBeat svg {
+    margin-left: 0;
+  }
   
 @keyframes beat-it {
     to {
