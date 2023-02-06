@@ -23,6 +23,8 @@
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
 	grid-template-rows: repeat(5, 1fr);
+    margin-bottom: 4.5rem;
+    min-height: 491px;
 }
 
 .projectDetails {

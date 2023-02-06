@@ -19,7 +19,7 @@ const ProjectCard = ({ data }) => {
                     
                 </ul>
                 <ul className={`${styles.projectLinks} ${styles.flex}`}>
-                    <a href={data.ghUrl} rel='noopener noreferrer' aria-label='External Link' target='_blank' ><FaGithub size={25}/></a>
+                    { data.ghUrl && <a href={data.ghUrl} rel='noopener noreferrer' aria-label='External Link' target='_blank' ><FaGithub size={25}/></a>}
                     { data.demoUrl && <a href={data.demoUrl} rel='noopener noreferrer' aria-label='External Link' target='_blank'><FiExternalLink size={25}/></a>}
                 </ul>
             </div>
