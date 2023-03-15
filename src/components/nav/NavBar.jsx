@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
 import { MdClose } from 'react-icons/md';
 import styles from './NavBar.module.css';
-import resume from '../../assets/Taryn-King_Resume.pdf';
+import resume from '../../assets/TarynKing.pdf';
 
 const NavBar = ({ isMobile }) => {
      const [menuOpen, setMenuOpen] = useState(false);
