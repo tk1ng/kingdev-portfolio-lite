@@ -13,7 +13,7 @@ const Work = () => {
             projectId: "3", title: "Website Redesign: Soirée Coffee Bar", description: "Restaurant website redesign for a local Dallas coffee bar.", imgAltTxt: "Restaurant website landing page", imgUrl: "https://github.com/TK1ng/kingdev-portfolio-lite/blob/main/src/assets/soiree_footer.png?raw=true", ghUrl: "", demoUrl: "https://www.figma.com/file/bWdk97QHRIBTW7mHtK0nmE/Draft?node-id=1%3A3", isFeatured: true, techStack: ['Figma','JavaScript', 'Pure CSS'], date: "06-21"
         },
         {
-            projectId: "4", title: "B E L L Y APP", description: "Full stack health and wellness app that tracks meals and wellness scores to help understand the correlation between diet and health.", imgAltTxt: "", imgUrl: "https://github.com/TK1ng/kingdev-portfolio-lite/blob/main/src/assets/bellyapp@2x.png?raw=true", ghUrl: "", demoUrl: "", isFeatured: true, techStack: ['ReactJS','NodeJS', 'ExpressJS',  'PostgreSQL'], date: "02-23"
+            projectId: "4", title: "B E L L Y APP", description: "Full stack health and wellness app that tracks meals and wellness scores to help understand the correlation between diet and health.", imgAltTxt: "", imgUrl: "https://github.com/TK1ng/kingdev-portfolio-lite/blob/main/src/assets/bellyapp@2x.png?raw=true", ghUrl: "https://github.com/TK1ng/be-well-app", demoUrl: "", isFeatured: true, techStack: ['ReactJS','NodeJS', 'ExpressJS',  'PostgreSQL'], date: "02-23"
         }
     ];
 
