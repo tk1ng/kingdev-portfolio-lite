@@ -1,7 +1,7 @@
 import ProjectCard from './ProjectCard';
 import styles from './Projects.module.css';
 const Work = () => {
-
+// TODO MOVE PROJECT DATA TO DB
     const projects = [
         {
             projectId: "4", title: "B E L L Y APP", description: "Full stack health and wellness app that tracks meals and wellness scores to help understand the correlation between diet and health.", imgAltTxt: "", imgUrl: "https://github.com/TK1ng/kingdev-portfolio-lite/blob/main/src/assets/bellyapp@2x.png?raw=true", ghUrl: "https://github.com/TK1ng/be-well-app", demoUrl: "", isFeatured: true, techStack: ['ReactJS','NodeJS', 'ExpressJS',  'PostgreSQL'], date: "02-2023"
