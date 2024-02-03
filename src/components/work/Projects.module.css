@@ -4,7 +4,7 @@
     max-width: 73%;
 }
 
-
+/* TODO fix intial break point for small screens to break sooner */
 @media (max-width: 768px) {
     .projectsContainer {
         padding: 2rem 1.5rem;
