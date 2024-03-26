@@ -1,5 +1,7 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { Button } from '../ui/Button/Button';
+
 import styles from './ContactForm.module.css';
 
 const ContactForm = () => {
@@ -32,7 +34,7 @@ const ContactForm = () => {
                     <input type='email' name='reply_to' placeholder='luke.skywalker@email.com' />
                     <label htmlFor='message'>MESSAGE</label>
                     <textarea type='textarea' rows='8' name='message' placeholder='Share your message...' />
-                    <button className='btn'>Submit</button>
+                    <Button cta='Submit' primary />
                 </form>
             }
            {showSent &&
