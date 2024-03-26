@@ -15,7 +15,7 @@
     --color-bg-variant: #171822;
     --color-primary: #B00AFC;
     --color-highlight: #e055e4;
-    --color-highlight-variant: #EA9863;
+    --color-highlight-variant: #d78949;
     --color-primary-variant:rgba(234, 152, 99, 0.4);
     --color-white: rgb(211, 210, 210);
     --bright: #fff;
@@ -85,30 +85,6 @@ a {
 
 a:hover {
     color: var(--color-primary)
-}
-
-
-.btn {
-    width: max-content;
-    display: inline-block;
-    color: var(--color-highlight-variant);
-    background-color: transparent;
-    padding: 0.70rem 1rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    border: 1px solid var(--color-highlight);
-    transition: var(--transition);
-}
-
-.btn:hover {
-    background-color: var(--color-highlight-variant);
-    color: var(--bright);
-    border-color: transparent;
-}
-
-.btn-primary {
-    background-color: var(--color-highlight);
-    color: var(--color-white);
 }
 
 img {
