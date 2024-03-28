@@ -3,9 +3,12 @@
   /* position: relative; */
 }
 
-.landing {
-  min-height: 100vh;
-  padding: 0;
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
 }
 
 section {
@@ -16,5 +19,15 @@ section {
 @media (max-width: 526px) {
   section {
     padding: 1rem;
+  }
+
+  .btnContainer {
+    flex-direction: column;
+    padding: 0 1.5rem;
+  }
+
+  .btnContainer button {
+    font-size: 1.4rem;
+    padding: 1.4rem 0;
   }
 }

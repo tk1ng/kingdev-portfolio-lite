@@ -1,0 +1,14 @@
+.hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@media (max-height: 740px) {
+    .hero-wrapper {
+        padding-top: 3rem;
+    }
+}
