@@ -9,9 +9,8 @@
     font-weight: bold;
     letter-spacing: 3px;
     margin: 10px;
-    padding: 0.70rem 1rem;
+    padding: 0.8rem 1rem;
     transition: var(--transition);
-    width: max-content;
 }
 
 .btn:hover {
