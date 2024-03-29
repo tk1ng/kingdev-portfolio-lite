@@ -22,7 +22,7 @@ const NavBar = ({ isMobile }) => {
                               <li><a href='/#about' className={styles.navLinks} onClick={menuClick}>About</a></li>
                               <li><a onClick={menuClick}href='#projects' className={styles.navLinks}>Work</a></li>
                               <li><a onClick={menuClick} href='#contact' className={styles.navLinks}>Contact</a></li>
-                              <li><a onClick={menuClick} href={resume} target='_blank' rel="noreferrer" className={styles.resumeLink}>View Résumé</a></li>
+                              <li><a href={resume} target='_blank' rel="noreferrer" className={styles.navlinks}>View Résumé</a></li>
                          </nav>
                     </aside> }
                </div>
@@ -31,7 +31,7 @@ const NavBar = ({ isMobile }) => {
                     <li><a href='#about' className={styles.navLinks}>About</a></li>
                     <li><a href='#projects' className={styles.navLinks}>Work</a></li>
                     <li><a href='#contact' className={styles.navLinks}>Contact</a></li>
-                    <li><a href={resume} target='_blank' rel="noreferrer" className={styles.navlinks}>View Résumé</a></li>
+                    <li><a href={resume} target='_blank' rel="noreferrer" className={styles.navLinks}>View Résumé</a></li>
                </nav>
           )}
           </>
