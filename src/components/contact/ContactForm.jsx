@@ -36,7 +36,7 @@ const ContactForm = () => {
         event.preventDefault();
         setIsSending(true);
         
-        axios.post('https://tarynking.dev/email', formData)
+        axios.post(`https://kingdev-engine.onrender.com/email`, formData)
         .then(res => {
             setIsSending(false);
             setShowSent(true);
