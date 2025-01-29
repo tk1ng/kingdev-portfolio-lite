@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-lite",
+"name": "portfolio-lite",
   "version": "0.1.0",
   "main": "src/server/index.js",
   "private": true,
