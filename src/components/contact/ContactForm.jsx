@@ -31,7 +31,7 @@ const ContactForm = () => {
             value: event.target.value,
         });
     };
-
+// TODO: Add optimistic handling
     const sendEmail = (event) => {
         event.preventDefault();
         setIsSending(true);

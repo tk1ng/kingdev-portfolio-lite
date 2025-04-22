@@ -4,16 +4,15 @@ import { FiExternalLink } from 'react-icons/fi';
 import styles from './ProjectCard.module.css';
 
 const ProjectCard = ({ data }) => {
-
     return ( 
-        <li className={styles.projectCard}>
+        <li className={styles.projectCard} key={data.projectId}>
             <div className={`${styles.projectDetails}`}>
                 <p className={`${styles.projectTag} emphasis`}>Featured Project</p>
                 <h3 className={styles.projectTitle}>{data.title}</h3>
                 <div className={styles.description}>{data.description}</div>
                 <ul className={`${styles.techStack} ${styles.flex}`}>
-                    { data.techStack.map( (tech) => {
-                        return <li>{tech}</li>
+                    { data.techStack.map( (tech, i) => {
+                        return <li key={tech + i}>{tech}</li>
                         }                      
                     )}
                     
